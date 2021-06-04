@@ -1,19 +1,25 @@
 $(document).ready(function() {
-  const hoursStudying = parseInt(prompt("Study hours a day: Enter Value between 0-6"));
+  const hoursStudying = parseInt(prompt("Study hours a day: Enter Value between 0-4"));
 
-  if (hoursStudying >4 ) {
+  if (hoursStudying >2.9 ) {
     $('#ruby').show();
   } 
-  else {hoursStudying <4 
+  else {hoursStudying <2 
     $('#javascript').show();
   }
   
 });
-
 $(document).ready(function() {
   $(".click").click(function() {
   $(".developer-showing").toggle();
   $(".developer-hidden").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".click").click(function() {
+  $(".frustration-showing").toggle();
+  $(".frustration-hidden").toggle();
   });
 });
 
