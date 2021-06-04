@@ -7,22 +7,22 @@ color: rebeccapurple;
 }
 
 .developer-showing {
-  display: none;
+display: none;
 
 }
 .frustration-showing{
-  display: none;
+display: none;
 }
 .click { color: blue;
-  cursor: progress;
+cursor: progress;
 
 }
 h2 {
-  text-decoration: overline;
+text-decoration: overline;
 }
 
 #rust {
-  display: none;
+display: none;
 }
 
 ol { bold;
@@ -33,7 +33,7 @@ body { background-image: url("https://previews.123rf.com/images/srckomkrit/srcko
 font-family: 'Times New Roman', Times, serif;
 }
 .container {
-  color: brown;
+color: brown;
 }
 
 
