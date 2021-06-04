@@ -3,7 +3,9 @@
 }
 h1 { text-align: center; border-style: ridge;
 border-color: rgb(197, 143, 5); border-radius: 15px;
+color: rebeccapurple;
 }
+
 .developer-showing {
   display: none;
 
@@ -14,6 +16,9 @@ border-color: rgb(197, 143, 5); border-radius: 15px;
 .click { color: blue;
   cursor: progress;
 
+}
+h2 {
+  text-decoration: overline;
 }
 
 #rust {
@@ -26,4 +31,10 @@ ol { bold;
 
 body { background-image: url("https://previews.123rf.com/images/srckomkrit/srckomkrit1404/srckomkrit140400257/27699789-gray-white-background-color-off-white-pale-paper-elegant-sophisticated-background-wallpaper-design-f.jpg");
 font-family: 'Times New Roman', Times, serif;
+}
+.container {
+  color: brown;
+}
+
+
 }
