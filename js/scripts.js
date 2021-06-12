@@ -53,9 +53,12 @@ $(document).ready(function() {
       console.log('javascript wins')
       $(".page-javascript").show(); 
       $(".page1").hide(); 
-
     }
+    $(".click").click(function() {
+    $(".developer-showing").toggle();
+    
+    });
+
     console.log(swift, ruby, java, javascript);
   });
 })
-
