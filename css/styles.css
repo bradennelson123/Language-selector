@@ -31,3 +31,15 @@ display: none;
 .page-java {
 display: none;
 }
+.ruby-picture { border-style: solid;
+ float: right;
+}
+.swift-picture{
+  border-style: solid; float: right;
+}
+.javascript-picture{
+  border-style: solid; float: right;
+}
+.java-picture{
+  border-style: solid; float: right;
+}
