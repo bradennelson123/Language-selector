@@ -1,92 +1,94 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-<script src="js/jquery-3.6.0.js"></script>
-<script src="js/scripts.js"></script>
-<title>Language Selector</title>
-</head>
-<body>
-  <h1> Language Selections</h1>
-  <div class="container">
-    <div id="ruby">
-      <h1>Ruby </h1>
-      <p> Ruby is an excellent choice for those that like to study!</p>
-      <p> Here are a couple reasons why its cool.</p>
-      <ol>
-        <li>Easy to store data</li>
-        <li>Good for web applications</li>
-        <li>Can be used for data analysis</li>
-      </ol>
-    <a href="https://www.codecademy.com/learn/learn-ruby">Click here to code some Ruby</a>
-    <h2>Not sure if Ruby is right for you?</h2>
-    <P> <em> Refresh the webpage and see what happens when you study less than 3 hours!</em></P>
-    <div class= "frustration-hidden">
-      <h3> Just Remember if you choose programming!<span class= "click"> you will end up like this!</span></h3>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Language Selector</title>
+  </head>
+  <body>
+    <div class="page1">
+      <h1>Language Selections</h1>
+      <h2>
+        Below you will find questions, answer the questions below to find your
+        language.
+      </h2>
+      <div class="container">
+        <form id="lang-questions">
+          <div class="q1">
+            <label for="q1">What is your favorite animal?</label><br />
+            <input type="radio" id="lion" name="q1" value="ruby" />
+            <label for="lion">lion</label><br />
+            <input type="radio" id="turtle" name="q1" value="swift" />
+            <label for="turtle">turtle</label><br />
+            <input type="radio" id="snake" name="q1" value="java" />
+            <label for="snake">snake</label><br />
+            <input type="radio" id="dog" name="q1" value="javascript" />
+            <label for="dog">Dog</label><br />
+          </div>
+          <div class="q2">
+            <label for="q2">What is your favorite country? </label><br />
+            <input type="radio" id="usa" name="q2" value="javascript" />
+            <label for="usa">USA </label><br />
+            <input type="radio" id="japan" name="q2" value="ruby" />
+            <label for="japan">Japan</label><br />
+            <input type="radio" id="india" name="q2" value="java" />
+            <label for="india">India </label><br />
+            <input type="radio" id="china" name="q2" value="swift" />
+            <label for="china">China</label><br />
+          </div>
+          <div class="q3">
+            <label for="q3">Favorite seasons</label><br />
+            <input type="radio" id="spring" name="q3" value="javascript" />
+            <label for="spring">Spring </label><br />
+            <input type="radio" id="summer" name="q3" value="ruby" />
+            <label for="summer">Summer</label><br />
+            <input type="radio" id="fall" name="q3" value="swift" />
+            <label for="fall">Fall</label><br />
+            <input type="radio" id="winter" name="q3" value="java" />
+            <label for="winter">Winter</label><br />
+          </div>
+          <div class="q4">
+            <label for="q4">Favorite food</label><br />
+            <input type="radio" id="burger" name="q4" value="javascript" />
+            <label for="burger">burger </label><br />
+            <input type="radio" id="sushi" name="q4" value="ruby" />
+            <label for="sushi">Sushi</label><br />
+            <input type="radio" id="curry" name="q4" value="java" />
+            <label for="curry">curry rice</label><br />
+            <input type="radio" id="wontons" name="q4" value="swift" />
+            <label for="wontons">Wontons</label><br />
+          </div>
+          <div class="q5">
+            <label for="q5">Favorite sports</label><br />
+            <input type="radio" id="football" name="q5" value="javascript" />
+            <label for="football">Football </label><br />
+            <input type="radio" id="kendo" name="q5" value="ruby" />
+            <label for="kendo">kendo</label><br />
+            <input type="radio" id="cricket" name="q5" value="java" />
+            <label for="cricket">cricket</label><br />
+            <input type="radio" id="kung-fu" name="q5" value="swift" />
+            <label for="kung-fu">kung fu</label><br />
+          </div>
+          <button type="submit" class="btn">Click here</button>
+        </form>
       </div>
-    <div class ="frustration-showing">
-      <p><span class="click"> Hide</span></p>
-      <img src="images/frustration.jpg">
     </div>
-  </div>
-    <div id="javascript">
-      <h1>Javascript</h1>
-      <p>Javascript is a great choice if you dont want to study as much! Just make sure you understand this list!</p>
-      <ol>
-        <li>Understand functions.</li>
-        <li>Understand Variables.</li>
-        <li> Use resources available to help yourself.</li>
-      </ol>
-      <div class ="container2">
-      <h2> What does a java developer do?</h2>
-        <div class= "developer-hidden">
-          <p> You will probably be doing a lot of this<span class= "click"> click here</span></p>
-          </div>
-        <div class ="developer-showing">
-          <p>Not very entertaining right?<span class="click"> click here</span></p>
-          <img src="images/Developer.jpg">
-          </div>
-    </div>
-    <div class= "container3">
+    <div class="page-javascript">
       <h2>Javascript is challenging but worth it!</h2>
-      <h5> If you want to try another language though, I can understand. Fill out the boxes below.</h5>
-      <h1>Follow the prompts to find your other languages</h1>
-      <form id="formOne">
-        <div class="form-group">
-          <label for="skill1"> Name a skill of yours</label>
-          <input id="skill1" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="values">Name a value of yours</label>
-          <input id="values" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="abilities">Name an ability of yours</label>
-          <input id="abilities" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="talents">Name a talent of yours </label>
-          <input id="talents" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Click here</button>
-      </form>
     </div>
-    <div id="rust">
-      <h1>Looks like you got RUST </h1>
-      <p>
-      <span class="skill1"> </span> <span class="values"></span> <span class="abilities"></span> <span class="talents"></span> 
-      </p>
-      <h2>But what is Rust?</h2>
-      <ol>
-        <li>Great for speed</li>
-        <li> Good for optimization</li>
-        <li>Requires a lot of commitment</li>
-      </ol>
-      <a href="https://www.rust-lang.org/">Link to learn Rust</a>
-      <h2> Maybe Rust isnt for me either?</h2>
-      <p> Reload the webpage and see what happens when you want to study more than 3 hours a night!</p>
+
+    <div class="page-ruby">
+    <h2> Ruby is super fun</h2>
     </div>
-  </div>
-</body>
+
+    <div class="page-swift">
+      <h2> Swift is for smart people</h2>
+    </div>
+
+    <div class="page-java">
+      <h2> Java is awesome!</h2>
+    </div>
+  </body>
 </html>
